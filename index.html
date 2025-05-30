@@ -97,6 +97,12 @@
       to {
         transform: translateY(-100px);
       }
+    
+    }
+    /* Đồng bộ kích thước ảnh trong card project */
+    .card-img-top {
+      height: 220px;
+      object-fit:cover;
     }
   </style>
 </head>
@@ -165,7 +171,8 @@
           <img src="projects/customer_segmentation.jpg" class="card-img-top" alt="Project 1 Image">
           <div class="card-body">
             <h5 class="card-title fw-bold">Customer Segmentation</h5>
-            <p class="card-text">Performed clustering on purchase behavior to identify key customer groups and improve marketing strategies.</p>
+            <p class="card-text">Applied RFM analysis and K-Means clustering to segment customers into distinct groups based on purchase behavior. 
+  Identified key segments and provided marketing recommendations to improve customer retention and engagement.</p>
             <a href="#" class="text-decoration-none me-2">Blog Post</a> |
             <a href="https://github.com/DennisDo1708/Data-Science-Portfollio/blob/main/project_customer_segmentaion_2.ipynb" target="_blank" class="text-decoration-none ms-2">Source Code</a>
           </div>
@@ -174,24 +181,34 @@
       <!-- Project 2 -->
       <div class="col-md-4 mb-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="projects/sales_dashboard.jpg" class="card-img-top" alt="Project 2 Image">
+          <img src="projects/realm_of.jpg" class="card-img-top" alt="Project 2 Image">
           <div class="card-body">
-            <h5 class="card-title fw-bold">Sales Dashboard</h5>
-            <p class="card-text">Developed an interactive dashboard using Power BI to track sales performance by region and product category.</p>
+            <h5 class="card-title fw-bold">REALMOF Analysis</h5>
+            <p class="card-text">Combined revenue and customer segmentation analysis for the REALMOF project. The first part involves revenue reporting and sales trends; the second part focuses on customer segmentation using RFM and K-Means clustering.</p>
             <a href="#" class="text-decoration-none me-2">Blog Post</a> |
-            <a href="#" class="text-decoration-none ms-2">Source Code</a>
+      <!-- Source Code với 2 file REALMOF -->
+        <div class="dropdown">
+          <a href="#" class="text-decoration-none ms-2 dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Source Code
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://github.com/DennisDo1708/Data-Science-Portfollio/blob/main/REALMOF(doanh%20thu).ipynb" target="_blank">Revenue Report</a></li>
+            <li><a class="dropdown-item" href="https://github.com/DennisDo1708/Data-Science-Portfollio/blob/main/REALMOF_Segmentaion.ipynb" target="_blank">Segmentation</a></li>
+          </ul>
+        </div>
+
           </div>
         </div>
       </div>
       <!-- Project 3 -->
       <div class="col-md-4 mb-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="projects/predictive_model.jpg" class="card-img-top" alt="Project 3 Image">
+          <img src="projects\nespresso.jpg" class="card-img-top" alt="Project 3 Image">
           <div class="card-body">
-            <h5 class="card-title fw-bold">Predictive Modeling</h5>
-            <p class="card-text">Built a machine learning model to predict customer churn based on historical engagement and purchase data.</p>
+            <h5 class="card-title fw-bold">Nespresso Customer Analysis</h5>
+            <p class="card-text">Conducted an exploratory data analysis (EDA) on Nespresso's customer transaction data. Cleaned and visualized data to uncover customer patterns, purchase behaviors, and key insights for marketing strategies.</p>
             <a href="#" class="text-decoration-none me-2">Blog Post</a> |
-            <a href="#" class="text-decoration-none ms-2">Source Code</a>
+            <a href="https://github.com/DennisDo1708/Data-Science-Portfollio/blob/main/Nespresso.ipynb" target="_blank" class="text-decoration-none ms-2">Source Code</a>
           </div>
         </div>
       </div>
